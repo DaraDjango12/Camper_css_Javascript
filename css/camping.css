@@ -1,0 +1,487 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: white;
+    color: black;
+    /* padding:0 4rem */
+    
+}
+.logo{
+    font-size:3rem;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.navarea{
+    padding: 0rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav{
+    text-align:center;
+    width: 30vw;
+    position:absolute;
+    top: 20px;
+    right:10px;
+    
+
+}
+
+.navSection{
+    position:relative;
+    width: 100vw;
+}
+
+.nav ul{
+    display: flex;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.nav li{
+    padding: 1rem 2rem;
+    background-color:burlywood;
+    font-size: 1.5rem;
+    list-style: none;
+    
+    
+
+}
+.nav a:hover{
+    color: white;
+}
+
+
+.weequip{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.5 rem;
+}
+
+
+/* .bodysect{
+    padding: 0 4rem;
+} */
+
+
+
+.container{
+    
+    margin-top: 2rem;
+    margin: auto;
+    width:50%;
+    height:18rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center; 
+    margin-bottom: 2rem;
+    
+
+}
+
+/* .container img{
+    width: 50%;
+    height: 50%;
+} */
+.image{
+    height: 50px;
+    width: 50px;
+}
+
+
+.popup{
+    padding:5px;
+    position:absolute;
+    top: 40vh;
+    left:40vw;
+    background-color: brown;
+    text-align: center;
+    display: none;
+}
+.popupActive{
+    display: block;
+}
+.container2{
+    /* background-image: url(/images/camp\ furniture5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    color: black;
+     height: 500px;
+    margin-top: 2rem;
+    margin:auto;
+    text-align: center;
+    background-color:burlywood;
+}
+
+.container2 img{
+    width:30%;
+    margin: auto;
+    
+}
+.navarea ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+.navarea li{
+    list-style: none;
+    
+}
+.navDiv{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    gap:2rem;
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 1rem 2rem;
+    
+}
+
+
+/* th,td{
+    padding: 10px;
+    border: 2px solid;
+} */
+
+/* .btn{
+    padding:0.5rem 2rem;
+    background: burlywood;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 2rem;
+} */
+
+.furHead{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.furimg{
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 4px 0 8px 0;
+    box-shadow: 4px 0 8px 0;
+}
+.fotosect{
+    margin-top: 2rem;
+}
+.furnstory{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+
+.furpic{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 15rem;
+    margin-top: 3rem;
+    
+}
+
+
+.furpic div{
+    height: 100%;
+}
+.furpic img{
+    height: 80%;
+    border-radius: 4px 0 2px 0;
+    box-shadow: 5px 0 8px 0;
+}
+
+footer{
+    background-color:burlywood;
+    color: black;
+    margin-top: 2rem;
+    bottom: 0;
+    
+}
+
+.footdiv{
+    padding: 1rem 4rem;
+}
+.foothead{
+    display: flex;
+    justify-content: space-around;
+}
+
+.acceptedfoot{
+    display: flex;
+    gap:4rem;
+}
+
+.foothead ul{
+    display: flex;
+    gap: 2rem;}
+
+.foothead a{
+    text-decoration: none;
+    color: black;
+}
+
+.foothead li{
+    list-style: none;
+}
+h2{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.section{
+    margin-top:4rem
+}
+
+.promotions{
+    display: flex;
+    gap:1rem;
+    color: burlywood;
+    /* font-size: 1.4rem;
+    margin-bottom: 4rem; */
+}
+
+.promotions p:hover{
+    color: brown;
+}
+
+.promotions button,.btn{
+    padding: 0.5rem 1rem;
+    background-color:beige;
+    border-radius: 10px;
+    text-decoration: none;
+    border-color: beige;
+
+}
+button{
+    cursor: pointer;
+}
+.promotions button a{
+    text-decoration: none;
+    color: black;
+}
+
+.promotions button:hover{
+    color:white;
+    background-color:burlywood;
+    
+
+}
+
+.offers{
+
+    height: 100%;
+    margin-top: 2rem;
+    background-color: beige;
+    box-shadow: 1px 2px;
+    border-radius: 10px 0 5px 0;
+}
+
+.offers img{
+    height:70%;
+}
+
+
+.basketcontent{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    height: 15rem;
+    /* width: 80%; */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.cartContent{
+    /* display: flex;
+    flex-direction: column; */
+
+    /* justify-content: space-around; */
+    /* align-items:flex-end; */
+    /* gap: 2rem; */
+    color: white;
+    height: 5rem;
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+    background-color: rgba(182, 66, 66,0.9);
+
+}
+.cartContent img{
+    height: 90%;
+}
+
+
+
+.reviewcol{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.rev{
+    font-size: 1.4rem;
+}
+
+.reviewcolChild{
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* h1{
+    color:red;
+} */
+
+
+/* .nav2{
+    display:none;
+} */
+
+#hamburger{
+    display: block;
+}
+
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+
+table,tr,tbody,td{
+    border: none;
+
+}
+td{
+    padding: 0.5rem 1rem;
+    
+}
+
+.class-items-qty-container input{
+    width: 40px;
+}
+.mode{
+    border:4px solid;
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:start;
+}
+.modeChange{
+    justify-content: end;
+}
+.darkMode{
+    background-color: rgb(54, 53, 53);
+    color:whitesmoke;
+}
+
+
+@media(max-width:900px){
+    body{
+        padding: 2rem;
+    }
+    #hamburger{
+        display: block;
+    }
+
+    .hide{
+        display:none;
+    }
+    .show{
+        display:block;
+    }
+
+    .navarea{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav ul{
+        flex-direction: column;
+
+    }
+    .nav li{
+        padding: 0.3rem 0.3rem;
+        text-align: center;
+
+    }
+
+    nav.active{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #hamburger{
+        display:flex;
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        cursor: pointer;
+        
+       /* display: none;*/
+    }
+
+    #hamburger img{
+        height: 100%;
+        width: 100%;
+        
+    }
+     .container2,.furpic,.foothead,.foothead ul,.basketcontent{
+        flex-direction: column;
+        height: 100%;
+        margin: 2rem auto;
+        width: 90%;
+        
+    }
+    .furpic{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .container2{
+        width: 100%;
+    }
+    .section{
+        height: 100%;
+    }
+
+    .reviewcol{
+        width: 100%;
+    }
+
+    
+
+}
+
+
+
